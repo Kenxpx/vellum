@@ -1,0 +1,2 @@
+# Vellum module fuzzing dictionary
+magic="VLM1"

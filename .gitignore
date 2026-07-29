@@ -1,0 +1,28 @@
+# build output
+/build/
+*.o
+*.a
+*.exe
+*.obj
+
+# python
+__pycache__/
+*.pyc
+
+# fuzzer artifacts
+crash-*
+leak-*
+timeout-*
+oom-*
+*.profraw
+
+# proof-of-concept crashing inputs and their generator are kept out of the
+# tree (they are delivered out of band, not part of the published sources)
+/fuzz/poc/
+/scripts/make_pocs.py
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,10 @@
+# ClusterFuzzLite project metadata for the Vellum VM.
+language: c
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+fuzz_targets:
+  - module_fuzzer
+  - verify_fuzzer
